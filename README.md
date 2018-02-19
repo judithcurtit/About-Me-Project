@@ -8,7 +8,7 @@ Prepare one page with introductory info about me and a paginated photo album.
 Create an account on GitHub, create a repository for the About Me project.  
 Start the README page with instructions to follow.  
 Download Visual Studio Code.
-Create the different files and pages (HTML, CSS, JS)
+Create the different files and pages (HTML, CSS, ,BS, JS)
 Read all the tutorials to understand the different langagues
 Get familiar with the Command Line
 
@@ -34,7 +34,7 @@ On Visual Code:
   * check online About Me pages to get ideas to make it appealing
   * Header/Navigation; three columns Life Path/Hobbies/Last but not least; Photo Album ; Footer
   
-### Style with CSS
+### Style with CSS / Bootstrap
 * CSS: few attempts already.
    * importance to comment _comment starts with /* and ends with */_
    * set the width of the body (responsive)
@@ -43,11 +43,11 @@ On Visual Code:
    * Display property
 
 ## Versioning
-Will Commit and pull request versioning be enough?
+commit to GitHub
  
 ## Remarks
-Text will be displayed in three equivalent columns
-Album photo to be inserted in the second part of the page, pagination required
-link [visit FP](fpwebsite)
-img ![hong kong panoramic view=alt](link)
+Text is displayed in three equivalent columns
+Link to the photo Album photo with centered pagination.
+Link is centered but does not adjust if page width is changing: find a solution to fix this.
+
 
