@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+  ========================================
+  Grid global
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+	color: black;
+	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+	} 
+/*
+  ========================================
+ Headings 1 / to try the slide js
+  ========================================
+*/
+h1 {
+	background-color: teal;
+	opacity: 0.3;
+	padding: 40px;
+	font-size: 250%;
+	text-align: center;
+	color: white;
+}
+/* 
+ ========================================
+clear column format
+ ========================================
+*/
+.row :after {
+	content: grid;
+	display: block;
+	clear: both;
+}
+/*
+ ========================================
+ Columns
+========================================
+*/
+.grid-container-fluid {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ grid-template-rows: 180px auto;
+ grid-gap: 15px;
+}
+.grid-container > div {
+	padding: 10px;
+}
+/*
+  ========================================
+img (center with display and margin)
+  ========================================
+*/
+img {
+display: block;
+margin: 10px auto;
+height: 200px;
+width: 230px;
+max-width: 100%;
+border-radius: 10px 0;
+}
+/*
+  ========================================
+ paragraph title
+  ========================================
+*/
+h3 {
+	font-size: 130%;
+	padding: 20px;
+	text-align: center;
+	border: 2px dotted teal;
+	border-radius: 0 10px;
+	margin: 25px 30px 10px 30px;
+}	
+.part {
+text-align: center;
+}
+/*
+centered link
+*/
+.pagination {
+	display: block;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.pagination a {
+	color: black;
+	font-weight: 500;
+    padding: 8px 20px;
+	border: 1px solid teal;
+	border-radius: 10px;
+	margin: 0 15px 30px 4px;
+}
+.pagination a:hover {
+	background-color: teal;
+	opacity: 0.4;
+	border-radius: 5px;
+}
+.media {
+	text-decoration: none;
+}
+footer {
+	margin-top: 30px;
+	color: black;
+}
+.contact {
+	float:right;
+	text-decoration: none;
+	color: black;
+	border: 1px solid teal;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+.contact:hover {
+	background-color: teal;
+	opacity: 0.3;
+	border-radius: 5px;
+	color: black;
+}
+footer.p {
+	color: black;
+	font-size: 100%;
+}
+.contact, .small {
+	line-height: 100%;
+}
